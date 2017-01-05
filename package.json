@@ -1,0 +1,16 @@
+{
+  "name": "yarn-travis-example",
+  "version": "1.0.0",
+  "description": "Minimum Travis-CI configuration using Yarn",
+  "main": "index.js",
+  "repository": "git@github.com:noriaki/yarn-travis-example.git",
+  "author": "Noriaki Uchiyama <uchiyama.noriaki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
